@@ -1,0 +1,19 @@
+body{
+    background-image: url("https://images.pexels.com/photos/4722571/pexels-photo-4722571.jpeg?cs=srgb&dl=pexels-cottonbro-4722571.jpg&fm=jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+h1{
+    color: rgb(136, 1, 1);
+}
+.inputSearch{
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 0 8px;
+  color: #666;
+  width: 200px;
+  margin-bottom: 30px;
+}

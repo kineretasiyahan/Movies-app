@@ -1,0 +1,27 @@
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mainDiv > div{
+  width: 240px ;
+  text-align: center;
+  margin: 10px;
+  color: rgb(136, 1, 1) ;
+  font-size: large;
+  border: none;
+  background-color: black;
+}
+.ant-card-head{
+  color: rgb(136, 1, 1) ;
+}
+.ant-card-meta-description{
+  color: white;
+}
+.ant-card-meta-title{
+  color: white;
+}
+.imgMovie{
+  height: 400px;
+  object-fit: cover ;
+}

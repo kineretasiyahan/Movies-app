@@ -1,0 +1,24 @@
+.anticon svg{
+    display: none !important;
+}
+.ant-modal-footer{
+    display: none !important;
+}
+.ant-modal-body{
+    background-color: black;
+}
+.btnModal{
+    border: 2px solid rgb(136, 1, 1) ;
+    border-radius: 5px;
+    width: 25%;
+    background-color: black;
+    color: rgb(136, 1, 1) ;
+    cursor: pointer;
+    transition: all 1s ease-in;
+}
+.btnModal:hover{
+  background-color: white;
+}
+h2,h3{
+    color: white !important;
+}
