@@ -13,7 +13,7 @@ const Home = () => {
   const [movie, setMovie] = useState(movies);
 
   useEffect(() => {
-    getAllMovies().then((response) => setMovies(response.data.items));
+    getAllMovies().then((response) => setMovies(response.data?.items));
   }, []);
   const indexOfLastPost = currentPage * moviesPerPage; //10
   const indexOfFirstPost = indexOfLastPost - moviesPerPage; //0
