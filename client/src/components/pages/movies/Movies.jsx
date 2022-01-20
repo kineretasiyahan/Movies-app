@@ -23,7 +23,7 @@ const Movies = ({ movies }) => {
         />
       ) : 
         <div className="mainDiv">
-          {movies.map((item) => {
+          {movies?.map((item) => {
             return (
               <Card
                 className="card"
