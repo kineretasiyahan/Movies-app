@@ -1,7 +1,4 @@
-const API =
-  process.env.NODE_ENV === "production"
-    ? "https://movies-react-app-one.herokuapp.com/"
-    : "http://localhost:5000";
+const API = "http://localhost:5000";
 export const getAllMovies = async () => {
     return await fetch(`${API}/MostPopularMovies`)
       .then((response) => response.json())
@@ -13,3 +10,7 @@ export const getMovieById = async (movieId) => {
       .then((response) => response.data)
       .catch((error) => console.log(error));
   };
+
+  // process.env.NODE_ENV == "production"
+  // ? "https://movies-react-app-one.herokuapp.com/"
+  // :
