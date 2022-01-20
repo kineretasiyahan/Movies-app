@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
-const API_KEY = process.env.API_KEY;
-const API_KEY3 = process.env.API_KEY3;
+const API_KEY_ALL_MOVIES = process.env.API_KEY_ALL_MOVIES;
+const API_KEY_CURRENT_MOVIE = process.env.API_KEY_CURRENT_MOVIE;
 
 const getAllMovies = async (req, res) => {
     try {
