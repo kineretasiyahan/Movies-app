@@ -4,8 +4,8 @@ import { Card } from "antd";
 import "./movies.css";
 
 const Movies = ({ movies }) => {
-  const [curenntMovie, setCurenntMovie] = useState({});
-  const [isDesplay, setIsDesplay] = useState(false);
+  const [curenntMovie, setCurenntMovie] = useState({});// // אובייקט התחלתי 
+  const [isDesplay, setIsDesplay] = useState(false);// ערך של TRUE/FALSE על מנת לבצע תנאי לתצוגה
   const { Meta } = Card;
   const onClickHandler = () => {
     !isDesplay ? setIsDesplay(true) : setIsDesplay(false);
@@ -47,3 +47,4 @@ const Movies = ({ movies }) => {
   );
 };
 export default Movies;
+
